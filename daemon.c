@@ -8,7 +8,7 @@
 #include <sys/file.h>
 #include <sys/ioctl.h>
 #include <sys/stat.h>
-
+#include <fcntl.h>
 #include "daemon.h"
 
 int daemon_start(int ignsigcld)
